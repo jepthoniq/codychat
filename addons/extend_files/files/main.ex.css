@@ -1,0 +1,395 @@
+#pro_social {
+    right: 0;
+    top: 100%;
+    width: 170px;
+    z-index: 40;
+}
+
+#pro_social {
+    right: auto;
+    left: 0;
+}
+
+.online_mark {
+    border-left: 3px solid green;
+    background: linear-gradient(45deg, #c1ffd2, transparent);
+}
+
+.inline {
+    display: inline !important
+}
+
+.rtl_fright {
+    float: right
+}
+
+.btn {
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5) inset;
+    border-radius: 3px;
+    border: 1px solid;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 8px;
+    position: relative;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+
+/*
+* Counter button style
+*/
+
+.btn-counter {
+    margin-right: 39px;
+}
+
+.btn-counter:after,
+.btn-counter:hover:after {
+    text-shadow: none;
+}
+
+.btn-counter:after {
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    background-color: #eee;
+    padding: 0 8px;
+    color: #777;
+    content: attr(data-count);
+    left: 100%;
+    margin-left: 8px;
+    margin-right: -13px;
+    position: absolute;
+    top: -1px;
+}
+
+.btn-counter:before {
+    transform: rotate(45deg);
+    filter: progid: DXImageTransform.Microsoft.Matrix(M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476, sizingMethod='auto expand');
+    background-color: #eee;
+    border: 1px solid #d3d3d3;
+    border-right: 0;
+    border-top: 0;
+    content: '';
+    position: absolute;
+    right: -13px;
+    top: 5px;
+    height: 6px;
+    width: 6px;
+    z-index: 1;
+    zoom: 1;
+}
+
+
+/*
+* Custom styles
+*/
+
+.btn {
+    background-color: #dbdbdb;
+    border-color: #bbb;
+    color: #666;
+}
+
+.btn:hover,
+.btn.active {
+    text-shadow: 0 1px 0 #b12f27;
+    background-color: #f64136;
+    border-color: #b12f27;
+}
+
+.btn:active {
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn span {
+    color: #f64136;
+}
+
+.btn:hover,
+.btn:hover span,
+.btn.active,
+.btn.active span {
+    color: #eeeeee;
+}
+
+.btn:active span {
+    color: #b12f27;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.ch_logs {
+    padding: 10px 8px;
+}
+
+
+/* Frames Css . By AhmedEx */
+
+.frame_class {
+    left: -5px;
+    position: absolute;
+    top: -4px;
+    border-radius: 0;
+    width: 50px !important;
+    height: 55px !important;
+}
+
+.frame_class_pro {
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: -30px;
+    border-radius: 0;
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 auto;
+}
+
+.pad_frame_pro {
+    padding-top: 25px;
+}
+
+.badge_class {
+    position: absolute;
+    right: -3px;
+    top: -4px;
+}
+
+.badge_class img {
+    height: 23px;
+}
+
+.chat_rank {
+    margin: 0 3px 0 3px;
+}
+
+.list_online {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 2px;
+}
+
+.under {
+    position: absolute;
+}
+
+.user_item_frame_inner {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+}
+
+.ul_fr_av {
+    right: 3px;
+    top: 3px;
+}
+
+.ul_fr_news {
+    right: -2px;
+    top: 2px;
+}
+
+.post_avatar img,
+.post_avatar_frame .under {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+}
+
+.over2 {
+    position: absolute;
+    z-index: 1;
+    right: 2px;
+    pointer-events: none;
+}
+
+.user_item_frame_avatar_new {
+    display: table-cell;
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+.ul_fr_bg {
+    width: 47px;
+    top: -3px;
+}
+
+.ul_fr_news_bg {
+    width: 42px;
+    top: -4px;
+}
+
+.over1 {
+    position: absolute;
+    z-index: 1;
+    right: -6px;
+    pointer-events: none;
+}
+
+.chat_frame_avatar {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+}
+
+.chat_frame_avatar_inner2 {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ch_fr_av {
+    top: 3px;
+}
+
+.ch_fr_bg {
+    width: 50px;
+    top: -5px;
+}
+
+.over4 {
+    position: absolute;
+    z-index: 1;
+    left: -2px;
+    pointer-events: none;
+}
+
+.over5 {
+    position: absolute;
+    z-index: 1;
+    right: -3px;
+    pointer-events: none;
+}
+
+.over3 {
+    position: absolute;
+    z-index: 1;
+    right: -14px;
+    pointer-events: none;
+    width: 160px;
+    top: -18px;
+}
+
+@media screen and (max-width:640px) {
+    .over3 {
+        max-width: 125px;
+    }
+}
+
+.nosex {
+    border-color: #fff;
+}
+
+.avsex {
+    border: 3px solid white;
+}
+
+.post_avatar_frame {
+    display: table-cell;
+    vertical-align: center;
+    width: 44px;
+    height: 44px;
+    position: relative;
+}
+
+.avatr_profile_frame {
+    right: -3px;
+}
+
+.frame_class {
+    right: -5px;
+    position: absolute;
+    top: -4px;
+    border-radius: 0;
+    width: 50px !important;
+    height: 55px !important;
+}
+
+.frame_class_pro {
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: -30px;
+    border-radius: 0;
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 auto;
+}
+
+.pad_frame_pro {
+    padding-top: 25px;
+}
+
+.badge_class {
+    position: absolute;
+    left: -9px;
+    top: -10px;
+}
+
+.badge_class img {
+    height: 23px;
+}
+
+.list_online {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 2px;
+}
+
+.ch_fr_levels {
+    width: 57px;
+    top: -11px;
+}
+
+@media screen and (max-width: 700px) {
+    .over5 {
+        position: absolute;
+        z-index: 1;
+        left: -2px;
+        pointer-events: none;
+    }
+    .ch_fr_levels {
+        width: 37px;
+        top: 1px;
+    }
+}
+
+.toplist_avatar2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.prim_plus_bg {
+
+    background-size: 50%;
+    background-position: 100% 167%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px #cd8dd9;
+    border: 1px dashed #cd8dd9;
+    border-radius: 25px;
+}
